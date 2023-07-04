@@ -108,9 +108,9 @@ class PowerUpType {
 }
 
 const powerUpTypes = [];
-new PowerUpType('Widen.png', widenPaddle, () => paddle.width = paddle.startingWidth);
-new PowerUpType('Breakthrough.png', breakThroughBlocks, () => breakthrough = false);
-new PowerUpType('Double.png', doubleBalls);
+new PowerUpType('images/Widen.png', widenPaddle, () => paddle.width = paddle.startingWidth);
+new PowerUpType('images/Breakthrough.png', breakThroughBlocks, () => breakthrough = false);
+new PowerUpType('images/Double.png', doubleBalls);
 
 // Power Up Effects
 
